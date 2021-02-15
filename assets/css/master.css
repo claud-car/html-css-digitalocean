@@ -20,9 +20,9 @@ body{
   text-decoration: underline;
 }
 
-/* HEADER */
+/* INIZIO HEADER */
 
-/* NAV */
+/* INIZIO NAV */
 
 .z-index{
   position: fixed;
@@ -61,9 +61,9 @@ body{
   margin: 0 5px;
 }
 
-/* NAV */
+/* FINE NAV */
 
-/* INTRO */
+/* INIZIO INTRO */
 
 .sez-intro{
   background-color: rgb(0, 105, 255);
@@ -125,12 +125,38 @@ body{
   color: #80868e;
 }
 
+.prova{
+  position: relative;
+}
+
+.fa-google{
+  position: absolute;
+  left:30px;
+  top:10px;
+  color: #54e516;
+}
+
 .sez-intro span{
   font-size: 11px;
   margin-bottom: 20px;
 }
 
+.underline-blue:hover{
+  cursor: pointer;
+}
+
+.underline-blue:active{
+  color: #000;
+}
+
+/* FINE INTRO */
+
+/* FINE HEADER */
+
 @media all and (min-width:767px){
+
+  /* INIZIO HEADER */
+  /* INIZIO NAV */
   .sez-intro h1{
     font-size: 29px;
   }
@@ -138,6 +164,9 @@ body{
   .sez-intro p{
     font-size: 18px;
   }
+
+  /* FINE NAV */
+  /* INIZIO INTRO */
 
   .form-intro h2{
     font-size: 26px;
@@ -147,9 +176,13 @@ body{
     font-size: 17px;
   }
 }
-
+  /* FINE INTRO */
+  /* FINE HEADER */
 
 @media all and (min-width:992px){
+
+  /* INIZIO HEADER */
+  /* INIZIO NAV */
   .mrg-l-r{
     margin: 0 60px;
   }
@@ -161,4 +194,9 @@ body{
   .sez-intro p{
     font-size: 20px;
   }
+
+  /* FINE NAV */
+  /* INIZIO INTRO */
+  /* FINE INTRO */
+  /* FINE HEADER */
 }
