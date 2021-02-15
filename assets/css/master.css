@@ -16,8 +16,15 @@ body{
 }
 
 .underline-blue{
-  color: #1072ff;
   text-decoration: underline;
+}
+
+.clr-grey{
+  color: #80868e;
+}
+
+.clr-blue{
+  color: #1072ff;
 }
 
 /* INIZIO HEADER */
@@ -122,10 +129,9 @@ body{
 
 .btn-form-2{
   font-weight: bold;
-  color: #80868e;
 }
 
-.prova{
+.position-logo-google{
   position: relative;
 }
 
@@ -152,6 +158,39 @@ body{
 /* FINE INTRO */
 
 /* FINE HEADER */
+/* INIZIO MAIN */
+
+.sez-logos{
+  background-color: #F3F5F9;
+}
+
+.sez-logos h4{
+  font-size: 14px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.sez-logos p{
+  font-weight: bold;
+}
+
+.sez-logos p:hover{
+  cursor: pointer;
+}
+
+.sez-logos p:active{
+  color: #000;
+  text-decoration: underline;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.sez-logos p{
+  margin-top:20px;
+  margin-bottom: 30px;
+}
 
 @media all and (min-width:767px){
 
@@ -175,9 +214,37 @@ body{
   .sez-intro span{
     font-size: 17px;
   }
-}
+
   /* FINE INTRO */
   /* FINE HEADER */
+  /* INIZIO MAIN */
+  /* INIZIO PRIMA SECTION */
+
+  .logo{
+    width: 120%;
+  }
+
+  #docker{
+    margin-top: 10px;
+  }
+
+  #slack{
+    margin-top: 10px;
+  }
+
+  #wework{
+    margin-top: 10px;
+  }
+
+  #hashi{
+    margin-top:15px;
+  }
+
+  #splunk{
+    margin-top: 8px;
+  }
+
+}
 
 @media all and (min-width:992px){
 
@@ -199,4 +266,23 @@ body{
   /* INIZIO INTRO */
   /* FINE INTRO */
   /* FINE HEADER */
+  /* INIZIO MAIN */
+  /* INIZIO PRIMA SECTION */
+
+  .logo{
+    width: 100%;
+  }
+
+  #docker{
+    margin-top: 15px;
+  }
+
+  #wework{
+    margin-top:12px;
+  }
+
+  #hashi{
+    margin-top: 20px;
+  }
+
 }
