@@ -2,12 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Inter', sans-serif;
 }
 
 /* UTILITY */
 
 .closer-text{
   padding: 15px 8px !important;
+}
+
+.underline-blue{
+  color: #1072ff;
+  text-decoration: underline;
 }
 
 /* HEADER */
@@ -51,14 +61,104 @@
   margin: 0 5px;
 }
 
+/* NAV */
 
-@media all and (min-width:766px){
+/* INTRO */
 
+.sez-intro{
+  background-color: rgb(0, 105, 255);
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  margin-top: 50px;
+}
+
+.sez-intro h1{
+  color: #FFF;
+  font-size: 28px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.sez-intro p{
+  color: #D0DFFF;
+  font-size: 17px;
+}
+
+.form-intro{
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.form-intro h2{
+  color: #000;
+  font-size: 23px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.form-intro h3{
+  color: #1072FF;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.sez-intro .form-group{
+  padding: 0 20px;
+}
+
+.btn-form{
+  display: block;
+  margin: 4% 4%;
+  width: 92%;
+  border: none;
+  background-image: none;
+}
+
+.btn-form-1{
+  background-color: #49b4e5;
+  color: #FFF;
+}
+
+.btn-form-2{
+  font-weight: bold;
+  color: #80868e;
+}
+
+.sez-intro span{
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+@media all and (min-width:767px){
+  .sez-intro h1{
+    font-size: 29px;
+  }
+
+  .sez-intro p{
+    font-size: 18px;
+  }
+
+  .form-intro h2{
+    font-size: 26px;
+  }
+
+  .sez-intro span{
+    font-size: 17px;
+  }
 }
 
 
 @media all and (min-width:992px){
   .mrg-l-r{
     margin: 0 60px;
+  }
+
+  .sez-intro h1{
+    font-size: 50px;
+  }
+
+  .sez-intro p{
+    font-size: 20px;
   }
 }
