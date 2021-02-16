@@ -27,6 +27,14 @@ body{
   color: #1072ff;
 }
 
+.bkgr-grey{
+  background-color: #F3F5F9;
+}
+
+.bkgr-white{
+  background-color: #FFF;
+}
+
 /* INIZIO HEADER */
 
 /* INIZIO NAV */
@@ -244,7 +252,6 @@ body{
 /* INIZIO TERZA SECTION-DESIGNED */
 
 .sez-designed{
-  background-color: #F3F5F9;
   padding: 50px 0;
 }
 
@@ -354,6 +361,40 @@ body{
   margin-bottom: 40px;
 }
 /* FINE QUINTA SEZIONE-WORLD */
+/* INIZIO SESTA SEZIONE-ROCKERBOX */
+
+.sez-rockerbox h2{
+  font-weight: bold;
+  color: #031B4E;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.sez-rockerbox img{
+  width: 100%;
+  padding-top: 40px;
+}
+
+.sez-rockerbox p{
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.sez-rockerbox span{
+  color: #031B4E;
+  font-size: 16px;
+}
+
+.read-story{
+  margin: 20px 0;
+}
+
+.mrg-rockerbox{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* FINE SESTA SEZIONE-ROCKERBOX */
 
 @media all and (min-width:767px){
 
@@ -451,8 +492,12 @@ body{
 /* INIZIO QUARTA SECTION-NEEDS */
 /* FINE QUARTA SECTION-NEEDS */
 /* INIZIO QUINTA SEZIONE-WORLD */
-
 /* FINE QUINTA SEZIONE-WORLD */
+/* INIZIO SESTA SEZIONE-ROCKERBOX */
+  .sez-rockerbox img{
+    width: 80%;
+  }
+/* FINE SESTA SEZIONE-ROCKERBOX */
 
 }
 
@@ -521,7 +566,11 @@ body{
 /* INIZIO QUARTA SECTION-NEEDS */
 /* FINE QUARTA SECTION-NEEDS */
 /* INIZIO QUINTA SEZIONE-WORLD */
-
 /* FINE QUINTA SEZIONE-WORLD */
+/* INIZIO SESTA SEZIONE-ROCKERBOX */
+  .sez-rockerbox img{
+    width: 60%;
+  }
+/* FINE SESTA SEZIONE-ROCKERBOX */
 
 }
