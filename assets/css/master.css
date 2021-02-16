@@ -35,9 +35,9 @@ body{
   background-color: #FFF;
 }
 
-/* INIZIO HEADER */
+  /* INIZIO HEADER */
 
-/* INIZIO NAV */
+    /* INIZIO NAV */
 
 .z-index{
   position: fixed;
@@ -76,9 +76,9 @@ body{
   margin: 0 5px;
 }
 
-/* FINE NAV */
+    /* FINE NAV */
 
-/* INIZIO INTRO */
+    /* INIZIO INTRO */
 
 .sez-intro{
   background-color: rgb(0, 105, 255);
@@ -163,11 +163,11 @@ body{
   color: #000;
 }
 
-/* FINE INTRO */
+    /* FINE INTRO */
 
-/* FINE HEADER */
-/* INIZIO MAIN */
-/* INIZIO PRIMA SECTION-LOGOS */
+    /* FINE HEADER */
+  /* INIZIO MAIN */
+    /* INIZIO PRIMA SECTION-LOGOS */
 
 .sez-logos{
   background-color: #F3F5F9;
@@ -201,8 +201,8 @@ body{
   margin-bottom: 30px;
 }
 
-/* FINE PRIMA SECTION-LOGOS */
-/* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
+    /* FINE PRIMA SECTION-LOGOS */
+    /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
 
 .sez-deploy h2{
   font-size: 28px;
@@ -248,8 +248,8 @@ body{
   font-weight: bold;
 }
 
-/* FINE SECONDA SECTION-DEPLOY AND SCALE */
-/* INIZIO TERZA SECTION-DESIGNED */
+    /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+    /* INIZIO TERZA SECTION-DESIGNED */
 
 .sez-designed{
   padding: 50px 0;
@@ -292,8 +292,8 @@ body{
   cursor: pointer;
 }
 
-/* FINE TERZA SECTION-DESIGNED */
-/* INIZIO QUARTA SECTION-NEEDS */
+    /* FINE TERZA SECTION-DESIGNED */
+    /* INIZIO QUARTA SECTION-NEEDS */
 
 .sez-needs{
   padding-bottom: 50px;
@@ -321,8 +321,8 @@ body{
   padding: 0 10px;
 }
 
-/* FINE QUARTA SECTION-NEEDS */
-/* INIZIO QUINTA SEZIONE-WORLD */
+    /* FINE QUARTA SECTION-NEEDS */
+    /* INIZIO QUINTA SEZIONE-WORLD */
 .background-world{
   background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
   background-repeat: no-repeat;
@@ -360,8 +360,8 @@ body{
 .col-mrg{
   margin-bottom: 40px;
 }
-/* FINE QUINTA SEZIONE-WORLD */
-/* INIZIO SESTA SEZIONE-ROCKERBOX */
+    /* FINE QUINTA SEZIONE-WORLD */
+    /* INIZIO SESTA SEZIONE-ROCKERBOX */
 
 .sez-rockerbox h2{
   font-weight: bold;
@@ -394,12 +394,30 @@ body{
   margin-bottom: 50px;
 }
 
-/* FINE SESTA SEZIONE-ROCKERBOX */
+    /* FINE SESTA SEZIONE-ROCKERBOX */
+    /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
+.sez-started{
+  background-color: #015BFF;
+  padding: 80px 0;
+}
+
+.sez-started h2{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn-started{
+  padding: 10px 20px;
+}
+
+    /* FINE SETTIMA SEZIONE-GETTING-STARTED */
+  /* FINE MAIN */
 
 @media all and (min-width:767px){
 
-/* INIZIO HEADER */
-/* INIZIO NAV */
+  /* INIZIO HEADER */
+    /* INIZIO NAV */
   .sez-intro h1{
     font-size: 29px;
   }
@@ -424,8 +442,8 @@ body{
   }
 
 
-/* FINE NAV */
-/* INIZIO INTRO */
+    /* FINE NAV */
+    /* INIZIO INTRO */
 
   .form-intro h2{
     font-size: 26px;
@@ -435,10 +453,10 @@ body{
     font-size: 17px;
   }
 
-/* FINE INTRO */
-/* FINE HEADER */
-/* INIZIO MAIN */
-/* INIZIO PRIMA SECTION-LOGOS*/
+    /* FINE INTRO */
+  /* FINE HEADER */
+  /* INIZIO MAIN */
+    /* INIZIO PRIMA SECTION-LOGOS*/
 
   .logo{
     width: 120%;
@@ -464,8 +482,8 @@ body{
     margin-top: 8px;
   }
 
-/* FINE PRIMA SECTION-LOGOS */
-/* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
+    /* FINE PRIMA SECTION-LOGOS */
+    /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
 
 
   .h-200{
@@ -476,8 +494,8 @@ body{
     font-size: 20px;
   }
 
-/* FINE SECONDA SECTION-DEPLOY AND SCALE */
-/* INIZIO TERZA SECTION-DESIGNED */
+    /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+    /* INIZIO TERZA SECTION-DESIGNED */
 
   #img-size{
     width: 60%;
@@ -488,23 +506,27 @@ body{
     display: contents;
   }
 
-/* FINE TERZA SECTION-DESIGNED */
-/* INIZIO QUARTA SECTION-NEEDS */
-/* FINE QUARTA SECTION-NEEDS */
-/* INIZIO QUINTA SEZIONE-WORLD */
-/* FINE QUINTA SEZIONE-WORLD */
-/* INIZIO SESTA SEZIONE-ROCKERBOX */
+    /* FINE TERZA SECTION-DESIGNED */
+    /* INIZIO QUARTA SECTION-NEEDS */
+    /* FINE QUARTA SECTION-NEEDS */
+    /* INIZIO QUINTA SEZIONE-WORLD */
+    /* FINE QUINTA SEZIONE-WORLD */
+    /* INIZIO SESTA SEZIONE-ROCKERBOX */
   .sez-rockerbox img{
     width: 80%;
   }
-/* FINE SESTA SEZIONE-ROCKERBOX */
+    /* FINE SESTA SEZIONE-ROCKERBOX */
+    /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
+
+    /* FINE SETTIMA SEZIONE-GETTING-STARTED */
+  /* FINE MAIN */
 
 }
 
 @media all and (min-width:992px){
 
-/* INIZIO HEADER */
-/* INIZIO NAV */
+  /* INIZIO HEADER */
+    /* INIZIO NAV */
   .mrg-l-r{
     margin: 0 60px;
   }
@@ -530,12 +552,12 @@ body{
     overflow: visible !important;
   }
 
-/* FINE NAV */
-/* INIZIO INTRO */
-/* FINE INTRO */
-/* FINE HEADER */
-/* INIZIO MAIN */
-/* INIZIO PRIMA SECTION-LOGOS */
+    /* FINE NAV */
+    /* INIZIO INTRO */
+    /* FINE INTRO */
+  /* FINE HEADER */
+  /* INIZIO MAIN */
+      /* INIZIO PRIMA SECTION-LOGOS */
 
   .logo{
     width: 100%;
@@ -553,24 +575,28 @@ body{
     margin-top: 20px;
   }
 
-/* FINE PRIMA SECTION-LOGOS */
-/* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
-/* FINE SECONDA SECTION-DEPLOY AND SCALE */
-/* INIZIO TERZA SECTION-DESIGNED */
+    /* FINE PRIMA SECTION-LOGOS */
+    /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
+    /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+    /* INIZIO TERZA SECTION-DESIGNED */
 
   #img-size{
     width: 50%;
   }
 
-/* FINE TERZA SECTION-DESIGNED */
-/* INIZIO QUARTA SECTION-NEEDS */
-/* FINE QUARTA SECTION-NEEDS */
-/* INIZIO QUINTA SEZIONE-WORLD */
-/* FINE QUINTA SEZIONE-WORLD */
-/* INIZIO SESTA SEZIONE-ROCKERBOX */
+    /* FINE TERZA SECTION-DESIGNED */
+    /* INIZIO QUARTA SECTION-NEEDS */
+    /* FINE QUARTA SECTION-NEEDS */
+    /* INIZIO QUINTA SEZIONE-WORLD */
+    /* FINE QUINTA SEZIONE-WORLD */
+    /* INIZIO SESTA SEZIONE-ROCKERBOX */
   .sez-rockerbox img{
     width: 60%;
   }
-/* FINE SESTA SEZIONE-ROCKERBOX */
+    /* FINE SESTA SEZIONE-ROCKERBOX */
+    /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
+
+    /* FINE SETTIMA SEZIONE-GETTING-STARTED */
+  /* FINE MAIN */
 
 }
