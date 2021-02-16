@@ -241,7 +241,49 @@ body{
 }
 
 /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+/* INIZIO TERZA SECTION-DESIGNED */
 
+.sez-designed{
+  background-color: #F3F5F9;
+  padding: 50px 0;
+}
+
+.sez-designed h2{
+  font-size: 28px;
+  font-weight: bold;
+  color: #031B4E;
+}
+
+.sez-designed p{
+  font-size: 19px;
+}
+
+#img-size{
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.sez-designed h6{
+  font-size: 15px;
+  font-weight: bold;
+  color: #031B4E;
+  padding: 0 35px;
+  margin-bottom: 80px;
+}
+
+.symb-blue{
+  color: #7CB1FC;
+  border-color: #7CB1FC;
+}
+
+.angle-size{
+  display: none;
+}
+
+.sez-designed .hover:hover{
+  cursor: pointer;
+}
 
 @media all and (min-width:767px){
 
@@ -324,6 +366,17 @@ body{
   }
 
 /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+/* INIZIO TERZA SECTION-DESIGNED */
+
+  #img-size{
+    width: 60%;
+  }
+
+  .angle-size{
+    font-size: 60px;
+    display: contents;
+  }
+
 
 }
 
@@ -382,5 +435,10 @@ body{
 /* FINE PRIMA SECTION-LOGOS */
 /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
 /* FINE SECONDA SECTION-DEPLOY AND SCALE */
+/* INIZIO TERZA SECTION-DESIGNED */
+
+  #img-size{
+    width: 50%;
+  }
 
 }
