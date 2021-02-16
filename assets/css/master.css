@@ -35,6 +35,10 @@ body{
   background-color: #FFF;
 }
 
+ul li{
+  list-style: none;
+}
+
   /* INIZIO HEADER */
 
     /* INIZIO NAV */
@@ -317,7 +321,7 @@ body{
   color: blue;
 }
 
-.sez-needs img, h5, p, a{
+.sez-needs > img h5 p a{
   padding: 0 10px;
 }
 
@@ -413,6 +417,39 @@ body{
 
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
+  /* INIZIO FOOTER */
+.sez-footer{
+  background-color: #010E28;
+  color: #80868e;
+  padding-bottom: 40px;
+}
+
+.opt-footer{
+  padding-top: 40px;
+}
+
+.sez-footer img{
+  margin-bottom: 10px;
+}
+
+.sez-footer strong{
+  font-size: 18px;
+  color: #FFF;
+}
+
+.loghi-footer{
+  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.log-foot{
+  padding-right: 5px;
+}
+
+.sez-footer li{
+  padding-bottom: 5px;
+}
+  /* FINE FOOTER */
 
 @media all and (min-width:767px){
 
@@ -520,6 +557,10 @@ body{
 
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
+  /* INIZIO FOOTER */
+
+
+  /* FINE FOOTER */
 
 }
 
@@ -598,5 +639,10 @@ body{
 
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
+  /* INIZIO FOOTER */
+  .sez-footer ul{
+    margin-top: 40px;
+  }
+  /* FINE FOOTER */
 
 }
