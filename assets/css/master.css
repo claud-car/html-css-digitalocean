@@ -310,9 +310,50 @@ body{
   color: blue;
 }
 
-/* .sez-needs img, h5, p, a{
+.sez-needs img, h5, p, a{
   padding: 0 10px;
-} */
+}
+
+/* FINE QUARTA SECTION-NEEDS */
+/* INIZIO QUINTA SEZIONE-WORLD */
+.background-world{
+  background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(3, 27, 78);
+  padding-bottom: 100PX;
+}
+
+.background-world h2{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 40px 0;
+}
+
+.first-col{
+  font-size: 12px;
+  color: #FFF;
+  vertical-align: middle;
+}
+
+.second-col{
+  font-size: 12px;
+  color: #80868e;
+}
+
+.third-col{
+  font-size: 11px;
+}
+
+.col-options{
+  border-bottom: 1px solid white;
+}
+
+.col-mrg{
+  margin-bottom: 40px;
+}
+/* FINE QUINTA SEZIONE-WORLD */
 
 @media all and (min-width:767px){
 
@@ -408,6 +449,10 @@ body{
 
 /* FINE TERZA SECTION-DESIGNED */
 /* INIZIO QUARTA SECTION-NEEDS */
+/* FINE QUARTA SECTION-NEEDS */
+/* INIZIO QUINTA SEZIONE-WORLD */
+
+/* FINE QUINTA SEZIONE-WORLD */
 
 }
 
@@ -474,5 +519,9 @@ body{
 
 /* FINE TERZA SECTION-DESIGNED */
 /* INIZIO QUARTA SECTION-NEEDS */
+/* FINE QUARTA SECTION-NEEDS */
+/* INIZIO QUINTA SEZIONE-WORLD */
+
+/* FINE QUINTA SEZIONE-WORLD */
 
 }
