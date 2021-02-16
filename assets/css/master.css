@@ -285,6 +285,35 @@ body{
   cursor: pointer;
 }
 
+/* FINE TERZA SECTION-DESIGNED */
+/* INIZIO QUARTA SECTION-NEEDS */
+
+.sez-needs{
+  padding-bottom: 50px;
+}
+
+.sez-needs h2{
+  text-align: center;
+  font-weight: bold;
+  color: #031B4E;
+  margin-bottom: 40px;
+  padding-top: 50px;
+}
+
+.sez-needs h5{
+  font-size: 17px;
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.sez-needs a{
+  color: blue;
+}
+
+/* .sez-needs img, h5, p, a{
+  padding: 0 10px;
+} */
+
 @media all and (min-width:767px){
 
 /* INIZIO HEADER */
@@ -377,6 +406,8 @@ body{
     display: contents;
   }
 
+/* FINE TERZA SECTION-DESIGNED */
+/* INIZIO QUARTA SECTION-NEEDS */
 
 }
 
@@ -440,5 +471,8 @@ body{
   #img-size{
     width: 50%;
   }
+
+/* FINE TERZA SECTION-DESIGNED */
+/* INIZIO QUARTA SECTION-NEEDS */
 
 }
