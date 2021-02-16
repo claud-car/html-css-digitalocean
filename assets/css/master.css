@@ -196,8 +196,51 @@ body{
 /* FINE PRIMA SECTION-LOGOS */
 /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
 
+.sez-deploy h2{
+  font-size: 28px;
+  color: #031B4E;
+  padding-top: 20px;
+}
 
+#text-title{
+  font-size: 19px;
+  margin-bottom: 40px;
+}
 
+.sez-deploy ul li{
+  border-left: 2px solid lightgrey;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.sez-deploy ul li:hover{
+  cursor: pointer;
+}
+
+.sez-deploy ul li:active{
+  border-left: 2px solid #7CB1FC;
+}
+
+.h-200{
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.h-300{
+  height: 300px;
+}
+
+.sez-deploy h3{
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.sez-deploy p{
+  font-weight: bold;
+}
+
+/* FINE SECONDA SECTION-DEPLOY AND SCALE */
 
 
 @media all and (min-width:767px){
@@ -211,6 +254,22 @@ body{
   .sez-intro p{
     font-size: 18px;
   }
+
+  .navbar-toggle{
+    display: block;
+  }
+
+  .navbar-header{
+    float: none;
+  }
+
+  .navbar-collapse.collapse{
+    display: none !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+
 
 /* FINE NAV */
 /* INIZIO INTRO */
@@ -256,6 +315,16 @@ body{
 /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
 
 
+  .h-200{
+    margin-bottom: 80px;
+  }
+
+  .sez-deploy h3{
+    font-size: 20px;
+  }
+
+/* FINE SECONDA SECTION-DEPLOY AND SCALE */
+
 }
 
 @media all and (min-width:992px){
@@ -272,6 +341,19 @@ body{
 
   .sez-intro p{
     font-size: 20px;
+  }
+
+  .navbar-toggle{
+    display: none;
+  }
+
+  .navbar-header{
+    float: left;
+  }
+
+  .navbar-collapse.collapse{
+    display: block !important;
+    overflow: visible !important;
   }
 
 /* FINE NAV */
@@ -299,6 +381,6 @@ body{
 
 /* FINE PRIMA SECTION-LOGOS */
 /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
-
+/* FINE SECONDA SECTION-DEPLOY AND SCALE */
 
 }
