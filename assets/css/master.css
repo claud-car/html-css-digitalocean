@@ -2,15 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body{
   font-family: 'Inter', sans-serif;
 }
-
 /* UTILITY */
-
 .closer-text{
   padding: 15px 8px !important;
 }
@@ -47,11 +44,8 @@ ul li{
   background-color: #7CB1FC;
   border-radius: 50%;
 }
-
   /* INIZIO HEADER */
-
     /* INIZIO NAV */
-
 .z-index{
   position: fixed;
   z-index: 1;
@@ -88,11 +82,8 @@ ul li{
 .mrg-symb{
   margin: 0 5px;
 }
-
     /* FINE NAV */
-
     /* INIZIO INTRO */
-
 .sez-intro{
   background-color: rgb(0, 105, 255);
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
@@ -175,13 +166,10 @@ ul li{
 .underline-blue:active{
   color: #000;
 }
-
     /* FINE INTRO */
-
     /* FINE HEADER */
   /* INIZIO MAIN */
     /* INIZIO PRIMA SECTION-LOGOS */
-
 .sez-logos{
   background-color: #F3F5F9;
 }
@@ -213,10 +201,8 @@ ul li{
   margin-top:20px;
   margin-bottom: 30px;
 }
-
     /* FINE PRIMA SECTION-LOGOS */
     /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
-
 .sez-deploy h2{
   font-size: 28px;
   color: #031B4E;
@@ -239,20 +225,9 @@ ul li{
   border-bottom:2px solid #7CB1FC;
 }
 
-/* .sez-deploy ul li{
-  border-left: 2px solid lightgrey;
-  list-style: none;
-  font-size: 20px;
-  padding: 10px 10px;
-} */
-
 .sez-deploy ul li:hover{
   cursor: pointer;
 }
-
-/* .sez-deploy ul li:active{
-  border-left: 2px solid #7CB1FC;
-} */
 
 .h-200{
   height: 200px;
@@ -271,10 +246,8 @@ ul li{
 .sez-deploy p{
   font-weight: bold;
 }
-
     /* FINE SECONDA SECTION-DEPLOY AND SCALE */
     /* INIZIO TERZA SECTION-DESIGNED */
-
 .sez-designed{
   padding: 50px 0;
 }
@@ -311,10 +284,8 @@ ul li{
 .angle-size{
   display: none;
 }
-
     /* FINE TERZA SECTION-DESIGNED */
     /* INIZIO QUARTA SECTION-NEEDS */
-
 .sez-needs{
   padding-bottom: 50px;
 }
@@ -340,7 +311,6 @@ ul li{
 .sez-needs > img h5 p a{
   padding: 0 10px;
 }
-
     /* FINE QUARTA SECTION-NEEDS */
     /* INIZIO QUINTA SEZIONE-WORLD */
 .background-world{
@@ -382,7 +352,6 @@ ul li{
 }
     /* FINE QUINTA SEZIONE-WORLD */
     /* INIZIO SESTA SEZIONE-ROCKERBOX */
-
 .sez-rockerbox h2{
   font-weight: bold;
   color: #031B4E;
@@ -413,7 +382,6 @@ ul li{
   margin-top: 40px;
   margin-bottom: 50px;
 }
-
     /* FINE SESTA SEZIONE-ROCKERBOX */
     /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
 .sez-started{
@@ -430,7 +398,6 @@ ul li{
 .btn-started{
   padding: 10px 20px;
 }
-
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
   /* INIZIO FOOTER */
@@ -474,9 +441,7 @@ ul li{
   cursor: pointer;
   text-decoration: underline;
 }
-
     /* HELPER-FOOTER */
-
 .helper{
   width: 450px;
   position: fixed;
@@ -512,9 +477,7 @@ ul li{
 }
     /* HELPER-FOOTER */
   /* FINE FOOTER */
-
 @media all and (min-width:767px){
-
   /* INIZIO HEADER */
     /* INIZIO NAV */
   .sez-intro h1{
@@ -539,11 +502,8 @@ ul li{
     padding-bottom: 0;
     overflow: visible !important;
   }
-
-
     /* FINE NAV */
     /* INIZIO INTRO */
-
   .form-intro h2{
     font-size: 26px;
   }
@@ -551,12 +511,10 @@ ul li{
   .sez-intro span{
     font-size: 17px;
   }
-
     /* FINE INTRO */
   /* FINE HEADER */
   /* INIZIO MAIN */
     /* INIZIO PRIMA SECTION-LOGOS*/
-
   .logo{
     width: 120%;
   }
@@ -580,11 +538,8 @@ ul li{
   #splunk{
     margin-top: 8px;
   }
-
     /* FINE PRIMA SECTION-LOGOS */
     /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
-
-
   .h-200{
     margin-bottom: 80px;
   }
@@ -606,10 +561,8 @@ ul li{
     border-left: 2px solid #7CB1FC;
     border-bottom: none;
   }
-
     /* FINE SECONDA SECTION-DEPLOY AND SCALE */
     /* INIZIO TERZA SECTION-DESIGNED */
-
   #img-size{
     width: 60%;
   }
@@ -618,7 +571,6 @@ ul li{
     font-size: 60px;
     display: contents;
   }
-
     /* FINE TERZA SECTION-DESIGNED */
     /* INIZIO QUARTA SECTION-NEEDS */
     /* FINE QUARTA SECTION-NEEDS */
@@ -630,18 +582,13 @@ ul li{
   }
     /* FINE SESTA SEZIONE-ROCKERBOX */
     /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
-
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
   /* INIZIO FOOTER */
-
-
   /* FINE FOOTER */
-
 }
 
 @media all and (min-width:992px){
-
   /* INIZIO HEADER */
     /* INIZIO NAV */
   .mrg-l-r{
@@ -668,14 +615,12 @@ ul li{
     display: block !important;
     overflow: visible !important;
   }
-
     /* FINE NAV */
     /* INIZIO INTRO */
     /* FINE INTRO */
   /* FINE HEADER */
   /* INIZIO MAIN */
       /* INIZIO PRIMA SECTION-LOGOS */
-
   .logo{
     width: 100%;
   }
@@ -691,16 +636,13 @@ ul li{
   #hashi{
     margin-top: 20px;
   }
-
     /* FINE PRIMA SECTION-LOGOS */
     /* INIZIO SECONDA SECTION-DEPLOY AND SCALE */
     /* FINE SECONDA SECTION-DEPLOY AND SCALE */
     /* INIZIO TERZA SECTION-DESIGNED */
-
   #img-size{
     width: 50%;
   }
-
     /* FINE TERZA SECTION-DESIGNED */
     /* INIZIO QUARTA SECTION-NEEDS */
     /* FINE QUARTA SECTION-NEEDS */
@@ -712,14 +654,12 @@ ul li{
   }
     /* FINE SESTA SEZIONE-ROCKERBOX */
     /* INIZIO SETTIMA SEZIONE-GETTING-STARTED */
-
     /* FINE SETTIMA SEZIONE-GETTING-STARTED */
   /* FINE MAIN */
   /* INIZIO FOOTER */
   .sez-footer ul{
     margin-top: 40px;
   }
-
   /* HELPER-FOOTER */
   .helper{
     bottom: 0;
@@ -740,7 +680,5 @@ ul li{
     margin: 0;
   }
   /* HELPER-FOOTER */
-
   /* FINE FOOTER */
-
 }
